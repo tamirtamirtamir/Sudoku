@@ -11,4 +11,8 @@ HOW TO USE SUDOKU:
 3. Enjoy!
 
 CURRENT OPTIONS:
-* -s: solves a Sudoku puzzle from a specified input file. if file is not specified, program will prompt user to create board through standard input. after sudoku board is created, if it has a solution, the terminal  will display it.
+* -s:   Solves a Sudoku puzzle from a specified input file. If file is not specified, program will prompt user to create board through standard input.
+
+CURRENT ISSUES/PLANNED UPDATES:
+* Sudoku puzzles can contain unaccepted values -> Implement system to check if board can be accepted and solved (for input files and standard input), if not, prompt user to change Sudoku board so program can solve it.
+* Some inputted puzzles that have no solution still display a solved solution -> not sure if backtracking algorithm has bugs, or if something else in program is wrong.. will look into this.
